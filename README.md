@@ -147,7 +147,7 @@ If the full dataset is unavailable, a small synthetic or reduced subset may be u
 │                  │                          │
 │         Cross-Entropy Loss                  │
 └─────────────────────────────────────────────┘
-
+```
 ---
 
 ## Environment
