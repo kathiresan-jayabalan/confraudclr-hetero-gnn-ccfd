@@ -1,1 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+type: software
+title: "ConFraudCLR-HeteroGNN-CCFD: Self-Supervised Contrastive Learning on Heterogeneous Graphs for Credit Card Fraud Detection"
+version: 1.0.0
+date-released: 2026-02-15
+license: Apache-2.0
+repository-code: "https://github.com/kathiresan-jayabalan/confraudclr-hetero-gnn-ccfd"
 
+authors:
+  - family-names: Jayabalan
+    given-names: Kathiresan
+    affiliation: "Research Scholar, Sathyabama Institute of Science and Technology, Chennai, Tamil Nadu, India"
+    email: kathiresan.jayabalan@gmail.com
+    orcid: "https://orcid.org/0009-0006-0902-772X"
+
+keywords:
+  - credit-card-fraud-detection
+  - contrastive-learning
+  - self-supervised-learning
+  - heterogeneous-graph-neural-network
+  - nt-xent-loss
+  - pytorch-geometric
+  - deep-learning
+  - graph-neural-network
+  - pretrain-finetune
+  - imbalanced-classification
+  - fraud-detection
+
+abstract: "A self-supervised contrastive learning framework using NT-Xent loss on heterogeneous graph neural networks for credit card fraud detection. The implementation features a two-stage pretrain-finetune pipeline with feature augmentation and optional SMOTE-based oversampling for handling class imbalance."
