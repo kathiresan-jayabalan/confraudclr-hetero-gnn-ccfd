@@ -107,6 +107,7 @@ If the full dataset is unavailable, a small synthetic or reduced subset may be u
 
 ## Architecture
 
+```text
 ┌─────────────────────────────────────────────┐
 │         Contrastive Pretraining             │
 │  ┌────────────┐        ┌────────────┐       │
@@ -123,7 +124,7 @@ If the full dataset is unavailable, a small synthetic or reduced subset may be u
 │  │ Projection  │      │ Projection  │       │
 │  │    Head     │      │    Head     │       │
 │  └──────┬──────┘      └──────┬──────┘       │
-│         └────────┬────────────┘             │
+│         └────────┬───────────┘              │
 │                  │                          │
 │           NT-Xent Loss                      │
 └─────────────────────────────────────────────┘
@@ -199,25 +200,25 @@ Runtime depends on hardware and dataset size.
 ## Key Hyperparameters
 
 **Configurable in the notebook:**
-# Contrastive pretraining
-PRETRAINEPOCHS = 100
-PRETRAINBATCHSIZE = 2048
-CONTRASTIVELR = 1e-3
-TEMPERATURE = 0.5
-EDGEDROPP = 0.1
-GAUSSIANNOISESTD = 0.01
-FEATMASKP = 0.1
+- Contrastive pretraining
+  - PRETRAINEPOCHS = 100
+  - PRETRAINBATCHSIZE = 2048
+  - CONTRASTIVELR = 1e-3
+  - TEMPERATURE = 0.5
+  - EDGEDROPP = 0.1
+  - GAUSSIANNOISESTD = 0.01
+  - FEATMASKP = 0.1
 
-# Supervised fine-tuning
-FINETUNEEPOCHS = 100
-FINETUNEBATCHSIZE = 2048
-FINETUNELR = 1e-3
-FINETUNEUNFREEZEENCODER = True  # Set False to freeze encoder
+- Supervised fine-tuning
+  - FINETUNEEPOCHS = 100
+  - FINETUNEBATCHSIZE = 2048
+  - FINETUNELR = 1e-3
+  - FINETUNEUNFREEZEENCODER = True  # Set False to freeze encoder
 
-# Model architecture
-EMBEDDIM = 64
-NUMGNNLAYERS = 1
-PROJDIM = 64
+- Model architecture
+  - EMBEDDIM = 64
+  - NUMGNNLAYERS = 1
+  - PROJDIM = 64
 
 ---
 
