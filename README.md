@@ -6,7 +6,7 @@ Self-Supervised Contrastive Learning on Heterogeneous Graphs for Credit Card Fra
 
 This repository provides a **Jupyter Notebook** implementation of a contrastive learning–based heterogeneous Graph Neural Network (GNN) pipeline for  **credit card fraud detection and evaluation** using the public Kaggle `creditcard.csv` dataset.
 
-**Main artifact:** confraudclr-hetero-gnn-ccfd.ipynb
+**Main artifact:** `confraudclr-hetero-gnn-ccfd.ipynb`
 
 **End-to-end execution:** data loading → heterogeneous graph construction → contrastive pretraining → supervised fine-tuning → evaluation
 
