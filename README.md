@@ -1,5 +1,4 @@
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653834.svg)](https://doi.org/10.5281/zenodo.18653834)
-
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18653833.svg)](https://doi.org/10.5281/zenodo.18653833)
 
 # ConFraudCLR-HeteroGNN-CCFD
 Self-Supervised Contrastive Learning on Heterogeneous Graphs for Credit Card Fraud Detection
@@ -270,4 +269,4 @@ This project is licensed under the Apache License 2.0.
 
 If you use this repository in academic or research work, please cite:
 
-Jayabalan, K. (2026). ConFraudCLR-HeteroGNN-CCFD: Self-Supervised Contrastive Learning on Heterogeneous Graphs for Credit Card Fraud Detection (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.18653834
+Jayabalan, K., & Radhakrishnan, S. (2026). ConFraudCLR-HeteroGNN-CCFD: Self-Supervised Contrastive Learning on Heterogeneous Graphs for Credit Card Fraud Detection (v1.1.0). Zenodo. https://doi.org/10.5281/zenodo.18653833
