@@ -14,6 +14,12 @@ authors:
     email: kathiresan.jayabalan@gmail.com
     orcid: "https://orcid.org/0009-0006-0902-772X"
 
+  - family-names: Radhakrishnan
+    given-names: Sethuraman
+    affiliation: "Associate Professor, Sathyabama Institute of Science and Technology, Chennai, Tamil Nadu, India"
+    email: sethuraman.cse@sathyabama.ac.in
+    orcid: "https://orcid.org/0000-0001-7115-593X"
+
 keywords:
   - credit-card-fraud-detection
   - contrastive-learning
