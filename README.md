@@ -11,7 +11,7 @@ To reproduce the baseline model comparisons (including Decision Tree, XGBoost, A
 Ensure you have the required dependencies installed, then run:
 ```bash
 python baseline_models_comparison.py
-
+```
 ---
 
 **Main artifact:** `confraudclr-hetero-gnn-ccfd.ipynb`
